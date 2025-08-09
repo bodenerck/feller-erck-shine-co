@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Feller & Erck Shine Co.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Feller & Erck Shine Co.</h1>
+      <p>Premium Interior Car Detailing — Minot, ND</p>
+      <a href="#contact" class="btn">Book an Appointment</a>
+    </div>
+  </header>
+
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=400&q=80" alt="Interior Detailing" />
+          <h3>Interior Detailing</h3>
+          <p>Deep cleaning and restoring your car’s interior to look brand new.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At Feller & Erck Shine Co., we pride ourselves on delivering high-quality, personalized interior detailing services to Minot, North Dakota. Your car deserves the best care, and we’re here to make it shine.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> <a href="tel:+17015000423">(701) 500-0423</a></p>
+      <p><strong>Email:</strong> <a href="mailto:bodenerck155@gmail.com">bodenerck155@gmail.com</a></p>
+      <p><strong>Location:</strong> Minot, North Dakota</p>
+      <p><strong>Hours:</strong> Monday – Friday, By Appointment</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Feller & Erck Shine Co. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

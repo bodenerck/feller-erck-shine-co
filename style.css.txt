@@ -1,0 +1,173 @@
+/* Reset & basics */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  text-align: center;
+  padding: 6rem 1.5rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
+
+.hero h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #bbb;
+}
+
+.btn {
+  background-color: #fff;
+  color: #121212;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #e67e22;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Services */
+.services {
+  background-color: #1e1e1e;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.services h2 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #292929;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+  max-width: 300px;
+  padding: 1rem;
+  color: #ddd;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.card p {
+  font-weight: 300;
+  font-size: 0.95rem;
+}
+
+/* About */
+.about {
+  padding: 3rem 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ccc;
+}
+
+.about h2 {
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+/* Contact */
+.contact {
+  background-color: #1e1e1e;
+  padding: 3rem 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: #bbb;
+}
+
+.contact h2 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.contact p {
+  margin-bottom: 0.75rem;
+  font-weight: 300;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  padding: 1rem;
+  text-align: center;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .service-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+}
